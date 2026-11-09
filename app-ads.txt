@@ -6,6 +6,9 @@ ironsrc.com, 695313, DIRECT
 # Google AdMob (direct)
 google.com, pub-8872590788047149, DIRECT, f08c47fec0942fa0
 
+# Liftoff Monetize / Vungle (direct)
+vungle.com, 6af228dc072353e2c43d6ad8, DIRECT, c107d686becd2d77
+
 # Unity Ads (list from the Unity dashboard)
 copper6.com, 766114, RESELLER
 themediagrid.com, B8N9YH, RESELLER, 35d5010d7789b49d
