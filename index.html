@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neuron Lab: Number Riddles</title>
+<meta name="description" content="Number riddles and memory drills with Neuron, the AI of the lab. Free on Google Play.">
+<link rel="icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07041a;--bg2:#0d0828;--fg:#f5f3ff;--muted:#c4b5fd;--dim:#8b7fc0;--accent:#fb923c;--violet:#8b5cf6;--line:rgba(167,139,250,.18);color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg)}
+body{min-height:100vh;color:var(--fg);font-family:Sora,"Segoe UI",system-ui,sans-serif;line-height:1.6;overflow-x:hidden;
+  background-image:radial-gradient(ellipse 900px 600px at 50% 0%,rgba(124,58,237,.35),transparent 70%),
+    linear-gradient(rgba(167,139,250,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(167,139,250,.05) 1px,transparent 1px);
+  background-size:100% 900px,48px 48px,48px 48px;background-repeat:no-repeat,repeat,repeat}
+.wrap{max-width:980px;margin:0 auto;padding-inline:20px}
+header{padding-block:64px 40px;text-align:center}
+.icon{width:132px;height:132px;border-radius:30px;box-shadow:0 0 48px rgba(139,92,246,.55)}
+h1{font-weight:800;font-size:clamp(34px,6vw,56px);line-height:1.1;margin:28px 0 12px;text-wrap:balance}
+h1 em{font-style:normal;color:var(--accent)}
+.lead{color:var(--muted);font-size:clamp(17px,2.4vw,20px);max-width:36em;margin:0 auto 32px}
+.play{display:inline-flex;align-items:center;gap:12px;background:var(--fg);color:#120a2e;text-decoration:none;font-weight:800;
+  padding:14px 26px;border-radius:14px;font-size:17px;box-shadow:0 8px 30px rgba(139,92,246,.4)}
+.play:hover{background:#fff}
+.play svg{width:22px;height:22px}
+.note{color:var(--dim);font-size:14px;margin-top:14px}
+.shots{display:flex;gap:clamp(8px,2vw,20px);justify-content:center;padding-block:24px 56px}
+.shots img{width:31%;max-width:260px;min-width:0;border-radius:clamp(8px,2vw,18px);border:2px solid var(--line);box-shadow:0 20px 50px rgba(0,0,0,.5)}
+.features{display:grid;grid-template-columns:1fr 1fr;gap:28px 32px;padding-bottom:56px}
+@media (max-width:640px){.features{grid-template-columns:1fr}}
+.f{border-top:2px solid var(--violet);padding-top:16px}
+.f h2{font-size:15px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:0 0 8px}
+.f p{margin:0;color:var(--muted);font-size:15px}
+footer{border-top:1px solid var(--line);padding-block:28px 40px;color:var(--dim);font-size:14px;display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between}
+footer a{color:var(--muted)}
+.mail{user-select:all;color:var(--fg)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img class="icon" src="icon.png" alt="Neuron Lab icon">
+    <h1>Neuron <em>Lab</em></h1>
+    <p class="lead">Number riddles and memory drills with Neuron, the AI who runs the lab. Find the hidden rule, train your memory, keep the reactor charged.</p>
+    <a class="play" href="https://play.google.com/store/apps/details?id=com.numberriddles.app">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#34a853" d="M3.6 2.2 13.4 12 3.6 21.8c-.4-.2-.6-.6-.6-1.1V3.3c0-.5.2-.9.6-1.1z"/><path fill="#fbbc04" d="m16.7 8.7-3.3 3.3 3.3 3.3 3.8-2.1c.9-.5.9-1.8 0-2.3z"/><path fill="#4285f4" d="M3.6 2.2c.3-.2.8-.2 1.2 0l11.9 6.5-3.3 3.3z"/><path fill="#ea4335" d="M13.4 12l3.3 3.3-11.9 6.5c-.4.2-.9.2-1.2 0z"/></svg>
+      Get it on Google Play
+    </a>
+    <p class="note">Free with ads · Neuron+ is a one-time unlock · 9 languages</p>
+  </header>
+
+  <div class="shots">
+    <img src="shot-riddle.jpg" alt="A number riddle: find the hidden rule">
+    <img src="shot-memory.jpg" alt="A memory drill round">
+    <img src="shot-daily.jpg" alt="The daily reactor">
+  </div>
+
+  <section class="features">
+    <div class="f"><h2>100 number riddles</h2><p>Every riddle hides one rule connecting its numbers. Study the solved examples, spot the pattern, apply it to the last one. Mental math only.</p></div>
+    <div class="f"><h2>9 memory drills</h2><p>Number sequences, flashing cells, word order, shape positions, N-back and more. Every round is generated fresh, so there is always another one.</p></div>
+    <div class="f"><h2>The daily reactor</h2><p>Five daily tasks charge the reactor and reveal the digits of an access code. Enter it from memory to double the day's reward.</p></div>
+    <div class="f"><h2>Your AI trainer</h2><p>Stuck? Your AI shows a hint or the answer as a hologram of the puzzle itself, so you learn the idea, not just the number.</p></div>
+  </section>
+
+  <footer>
+    <span>Support: <span class="mail">numberriddles.support@gmail.com</span></span>
+    <a href="https://sites.google.com/view/number-riddles-privacy/">Privacy policy</a>
+  </footer>
+</div>
+</body>
+</html>
